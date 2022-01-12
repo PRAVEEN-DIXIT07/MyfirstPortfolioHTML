@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WEB DEV/Style.css">
+    <style>
+        body{
+           background-color:black;
+            margin:0px;
+            padding: 2px;
+           background:url('pic.jpg')no-repeat center center/cover;
+           content:"";
+           
+        }
+        .left{
+            display:inline-block;
+            border:3px solid red;
+            position: absolute;
+            left:20px;
+            top:10px;
+            margin:5px;
+        }
+        .left img{
+            width:136px;
+        }
+        .left div{
+            text-align: center;
+            color:yellow;
+        }
+        .mid{
+            display:block;
+            width:40%;
+            margin:15px auto;
+            border:3px solid red;           
+        }
+        .right{
+            display:inline-block;
+            border:3px solid red;
+            position: absolute;
+            top:10px;
+            right:80px;
+            margin:5px;
+            color:yellow;
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color:aquamarine;
+            text-decoration: none;
+            padding:20px 10px;
+        }
+        .navbar li a:hover{
+            text-decoration-line: underline ;
+            color:white;
+            text-decoration-color: red;
+        }
+        .btn{
+            margin :2px 2px;
+            padding :2px 2px;
+            background-color: rgb(231, 236, 238);
+            color:black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .btn:hover{
+            color:red;
+        }
+        .container{
+            margin:20px 20px;
+            padding:30px 30px;
+            border:2px solid red 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="Gym">
+        <div class="left">
+            <img src="gym.jpg" alt="image not found">
+            <div>Praveen Fitness</div>
+        </div>
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+        </header>
+    <div class="container">
+        <h1>Join The Praveen Gym Now</h1>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        header::before{
+            background: url('pic.jpg') no-repeat center center/cover;
+          content:"";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity:0.3;
+            display:flex;
+        }
+        .navigation{
+            display:flex;
+            color:red;
+        }
+        li{
+            border:1px solid black;
+            margin:auto 20px;
+            overflow: hidden;
+         }
+         h1{
+             text-align:center;
+         }
+       .navigation  li:hover{
+             text-decoration:underline;
+         }
+         .button{
+            float:right;
+            margin-right: 60px;
+         }
+    </style>
+</head>
+<body>
+  <header>
+      <h1>the bakwas coding</h1>
+      <nav class="navbar">
+          <ul class="navigation">
+              <li>Home</li>
+              <li>Contact Us</li>
+              <li>Coding</li>
+              <li>Learn More</li>
+          </ul>
+      </nav>
+      <button class="button">We</button><button class="button">Call</button>
+  </header>
+</body>
+</html>
